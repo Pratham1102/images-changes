@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="sec-1">
+        <div class="text-img">
+            <div class="text">
+                <h1>Click on Button <br>to change image</h1>
+                <div class="btns-1">
+                    <button type="button" onclick="showimg1()" onclick="showimg1()">img1</button>
+                    <button onclick="showimg2() " onclick="showimg2()">img2</button>
+                    <button onclick="showimg3() " onclick="showimg3()" >img3</button>
+                    <button onclick="showimg4() " onclick="showimg4()">img4</button>
+                    <button onclick="showimg5() " onclick="showimg5()">img5</button>
+                </div>
+            </div>
+            <div class="image-1">
+                <img src="images/img.jpg" id="change-img">
+
+                <h1 id="change-text"></h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
